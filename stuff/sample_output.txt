@@ -1,0 +1,44 @@
+GeoPoint check: PASS
+(-3.0,3.0)->(5.0,-5.0) exp=-1.00 act=-1.00
+(-3.0,-3.0)->(5.0,5.0) exp=1.00 act=1.00
+(3.0,3.0)->(5.0,7.0) exp=2.00 act=2.00
+(3.0,3.0)->(7.0,5.0) exp=0.50 act=0.50
+(3.0,3.0)->(3.0,3.0) exp= NaN act= NaN
+(-3.0,-3.0)->(10.0,-3.0) exp=0.00 act=0.00
+(1.0,100.0)->(1.0,-100.0) exp=-Infinity act=-Infinity
+(1.0,-100.0)->(1.0,100.0) exp=Infinity act=Infinity
+GeoLine check: PASS
+GeoRectangle check: PASS
+GeoOval check: PASS
+origin=(1.1,2.2),color=#ba1a69,edgeWidth=1.0,edgeColor=#0000ff,width=128.2,height=256.1
+A=25786.20820862829,P=636.2111023505217
+origin=(105.5,300.5),color=#683509,edgeWidth=1.0,edgeColor=#0000ff,end=(256.0,256.0)
+L=156.94107055664062,S=-0.29568105936050415
+origin=(400.0,128.2),color=#55a8f7,edgeWidth=1.0,edgeColor=#0000ff,width=64.0,height=32.0
+A=2048.0,P=192.0
+origin=(64.5,300.0),color=#b50227,edgeWidth=1.0,edgeColor=#0000ff,width=256.0,height=128.0
+A=25735.927018207585,P=635.8136490109505
+origin=(200.0,8.8),color=#f629f0,edgeWidth=1.0,edgeColor=#0000ff,width=128.0,height=128.0
+A=16384.0,P=512.0
+origin=(256.0,256.0),color=#8df2e8,edgeWidth=1.0,edgeColor=#0000ff,end=(5.5,5.5)
+L=354.260498046875,S=1.0
+origin=(400.2,256.0),color=#ba1a69,edgeWidth=1.0,edgeColor=#0000ff,width=100.0,height=200.0
+A=15707.963267948966,P=496.7294132898051
+origin=(276.2,200.7),color=#683509,edgeWidth=1.0,edgeColor=#0000ff,width=64.0,height=256.0
+A=16384.0,P=640.0
+Drawing oval: origin=(1.1,2.2),color=#ba1a69,edgeWidth=1.0,edgeColor=#0000ff,width=128.2,height=256.1
+Drawing line: origin=(105.5,300.5),color=#683509,edgeWidth=1.0,edgeColor=#0000ff,end=(256.0,256.0)
+Drawing rectangle: origin=(400.0,128.2),color=#55a8f7,edgeWidth=1.0,edgeColor=#0000ff,width=64.0,height=32.0
+Drawing oval: origin=(64.5,300.0),color=#b50227,edgeWidth=1.0,edgeColor=#0000ff,width=256.0,height=128.0
+Drawing rectangle: origin=(200.0,8.8),color=#f629f0,edgeWidth=1.0,edgeColor=#0000ff,width=128.0,height=128.0
+Drawing line: origin=(256.0,256.0),color=#8df2e8,edgeWidth=1.0,edgeColor=#0000ff,end=(5.5,5.5)
+Drawing oval: origin=(400.2,256.0),color=#ba1a69,edgeWidth=1.0,edgeColor=#0000ff,width=100.0,height=200.0
+Drawing rectangle: origin=(276.2,200.7),color=#683509,edgeWidth=1.0,edgeColor=#0000ff,width=64.0,height=256.0
+Drawing oval: origin=(1.1,2.2),color=#ba1a69,edgeWidth=1.0,edgeColor=#0000ff,width=128.2,height=256.1
+Drawing line: origin=(105.5,300.5),color=#683509,edgeWidth=1.0,edgeColor=#0000ff,end=(256.0,256.0)
+Drawing rectangle: origin=(400.0,128.2),color=#55a8f7,edgeWidth=1.0,edgeColor=#0000ff,width=64.0,height=32.0
+Drawing oval: origin=(64.5,300.0),color=#b50227,edgeWidth=1.0,edgeColor=#0000ff,width=256.0,height=128.0
+Drawing rectangle: origin=(200.0,8.8),color=#f629f0,edgeWidth=1.0,edgeColor=#0000ff,width=128.0,height=128.0
+Drawing line: origin=(256.0,256.0),color=#8df2e8,edgeWidth=1.0,edgeColor=#0000ff,end=(5.5,5.5)
+Drawing oval: origin=(400.2,256.0),color=#ba1a69,edgeWidth=1.0,edgeColor=#0000ff,width=100.0,height=200.0
+Drawing rectangle: origin=(276.2,200.7),color=#683509,edgeWidth=1.0,edgeColor=#0000ff,width=64.0,height=256.0
